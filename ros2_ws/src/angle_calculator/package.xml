@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>angle_calculator</name>
+  <version>0.0.1</version>
+  <description>ROS2 package for line angle and heading comparator</description>
+  <maintainer email="alstjd1118@hanyang.ac.kr">Baeminseong</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- 빌드 도구: ament_cmake 와 ament_python 사용 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- 실행 시 의존성 -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>tf_transformations</exec_depend>
+
+</package>
